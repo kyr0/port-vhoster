@@ -1,12 +1,13 @@
 {
   "name": "port-vhoster",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "Dead simple HTTP multi domain name / IP / directory vhost port forwarding router proxy.",
   "author": "Aron Homberg <info@aron-homberg.de>",
   "repository": {
     "type": "git",
     "url": "http://github.com/kyr0/port-vhoster.git"
   },
+  "homepage":"http://github.com/kyr0/port-vhoster/",
   "keywords": [
     "multi",
     "vhost",
