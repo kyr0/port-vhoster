@@ -1,7 +1,7 @@
 port-vhoster
 ==========
 
-# A simple HTTP vhost reverse proxy / port sharing implementation for node.js. Run multiple node HTTP servers (Domains, IP's) through one port.
+A simple HTTP vhost reverse proxy / port sharing implementation for node.js. Run multiple node HTTP servers (Domains, IP's) through one port.
 
 This project implements a simple HTTP multi domain name / IP / directory HTTP reverse proxy for virtual hosting / port sharing.
 It simply does what a reverse proxy does combined with some mod_rewrite feature support.
