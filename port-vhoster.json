@@ -1,0 +1,7 @@
+{
+    "description": "For example routing all HTTP requests of port 8100 to localhost:8080...",
+    "port": 8100,
+    "vhosts": {
+        "localhost": "127.0.0.1:8080"
+    }
+}

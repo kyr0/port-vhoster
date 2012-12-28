@@ -1,0 +1,31 @@
+{
+  "name": "port-vhoster",
+  "version": "0.1.0",
+  "description": "Dead simple HTTP multi domain name / IP / directory vhost port forwarding router proxy.",
+  "author": "Aron Homberg <info@aron-homberg.de>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/kyr0/port-vhoster.git"
+  },
+  "keywords": [
+    "multi",
+    "vhost",
+    "port",
+    "reverse",
+    "proxy",
+    "http"
+  ],
+  "dependencies": {
+    "optimist": "0.3.x",
+    "http-proxy": "0.8.x"
+  },
+  "main": "./port-vhoster",
+  "bin": {
+    "port-vhoster": "./port-vhoster"
+  },
+  "license" : "MIT",
+  "engines": {
+    "node": ">= 0.8.*"
+  }
+}
+
