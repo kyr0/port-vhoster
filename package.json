@@ -1,7 +1,7 @@
 {
   "name": "port-vhoster",
-  "version": "0.1.14",
-  "description": "Dead simple HTTP multi domain name / IP / directory vhost port forwarding router proxy.",
+  "version": "0.1.15",
+  "description": "A simple HTTP vhost reverse proxy / port sharing implementation for node.js. Run multiple node HTTP servers (Domains, IP's) through one port.",
   "author": "Aron Homberg <info@aron-homberg.de>",
   "repository": {
     "type": "git",
