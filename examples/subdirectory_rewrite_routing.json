@@ -1,0 +1,7 @@
+{
+    "description": "Routing requests from one domain (port 80), path /downloads to path / on localhost:8082...",
+    "port": 80,
+    "vhosts": {
+        "www.aron-homberg.de/downloads": "127.0.0.1:8082"
+    }
+}

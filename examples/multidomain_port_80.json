@@ -1,0 +1,8 @@
+{
+    "description": "Shadow-routing HTTP traffic of multiple domains using one shared port (80)...",
+    "port": 80,
+    "vhosts": {
+        "www.aron-homberg.de": "127.0.0.1:8081",
+        "aron-homberg.de": "127.0.0.1:8081"
+    }
+}
