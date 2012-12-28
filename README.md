@@ -8,6 +8,11 @@ It simply does what a reverse proxy does combined with some mod_rewrite feature 
 
 This project also shows the power of node.js by being implemented in less than 100 lines of code.
 
+PERFORMANCE NOTICE:
+This code has NOT been tested in production / high load environments.
+So be warned and test on your own before using it in production. Feedback welcome!
+(It SHOULD be NOT LESS faster than the http-proxy module implementation for routing.)
+
 ## Prerequisites
 
 Make sure:
