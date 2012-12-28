@@ -52,7 +52,7 @@ The following configuration is a simple routing example. You can add more vhosts
 
 Take a look at the [examples](https://github.com/kyr0/port-vhoster/tree/master/examples) directory for more inspiration.
 
-## Running the port sharing proxy
+## Running
 
 By default, ```port-vhoster``` searches for a config file called ```port-vhoster.json``` in current working directory.
 If you want to use a different name, run ```port-vhoster``` with the optional argument to name the config file:
@@ -65,7 +65,7 @@ If you want to use a different name, run ```port-vhoster``` with the optional ar
 
 You may need super-user permissions if you want ```port-vhoster``` to listen to a port below 1024 (e.g. port 80).
 
-## Logging and server mode
+## Logging and running in stand-alone mode
 
 If you're on a Unix/Linux/Mac OS X system you can run port-vhoster in server mode easily:
 
