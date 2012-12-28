@@ -83,7 +83,7 @@ Stopping (e.g. ```stop-vhoster.sh``` - don't forget to: ```chmod +x stop-vhoster
 ```
     #!/bin/sh
     echo "Stopping port-vhoster..."
-    kill $(ps aux | grep '[port]-vhoster' | awk '{print $2}')
+    kill $(ps aux | grep '[p]ort-vhoster' | awk '{print $2}')
 
 ```
 
