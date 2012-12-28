@@ -1,6 +1,6 @@
 {
   "name": "port-vhoster",
-  "version": "0.1.0",
+  "version": "0.1.13",
   "description": "Dead simple HTTP multi domain name / IP / directory vhost port forwarding router proxy.",
   "author": "Aron Homberg <info@aron-homberg.de>",
   "repository": {
@@ -19,10 +19,10 @@
     "optimist": "0.3.x",
     "http-proxy": "0.8.x"
   },
-  "main": "./port-vhoster",
   "bin": {
-    "port-vhoster": "./port-vhoster"
+    "port-vhoster": "bin/port-vhoster.js"
   },
+  "main": "lib/port-vhoster",
   "license" : "MIT",
   "engines": {
     "node": ">= 0.8.*"

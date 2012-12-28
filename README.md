@@ -4,11 +4,17 @@ This project implements a dead simple HTTP multi domain name / IP /
 directory vhost port forwarding router proxy using the http-proxy module.
 It shows the power of node.js by being implemented in less than 50 lines of code.
 
+## Prerequisites
+
+Make sure:
+- node.js is installed (>= 0.8.*)
+- npm is installed
+
 ## Installing
 
 ```
 
-    [sudo] npm install port-vhoster
+    [sudo] npm install -g port-vhoster
 
 ```
 
@@ -46,7 +52,7 @@ Dead simple, just call node to run ```port-vhoster.js``` optionally name an alte
 
 ```
 
-    [sudo] node port-vhoster.js [alternative-config-file.json]
+    [sudo] port-vhoster [alternative-config-file.json]
 
 ```
 
