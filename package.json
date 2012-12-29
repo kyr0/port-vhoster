@@ -1,6 +1,6 @@
 {
   "name": "port-vhoster",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "A simple HTTP vhost reverse proxy / port sharing implementation for node.js. Run multiple node HTTP servers (Domains, IP's) through one port.",
   "author": "Aron Homberg <info@aron-homberg.de>",
   "repository": {
